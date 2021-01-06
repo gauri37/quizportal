@@ -1,0 +1,192 @@
+
+.loginbackground {
+  width: 100%;
+  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  /*width: 100%;
+  font-family: Poppins-Regular, sans-serif;
+  background: linear-gradient(to right, #6600cc 0%, #ff99ff 100%);*/
+  background-image: url("https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg");
+}
+.innerlogindiv{
+height: 100%;
+background-color: white;
+margin: auto;
+width: 40%;
+display: block;
+margin-top: 120px;
+padding: 10px;
+border-radius: 20px;  
+
+}
+
+.loginform-start{
+width: 100%;
+}
+.logintitle {
+display: block;
+font-family: Poppins-Bold;
+font-size: 42px;
+color:#8B008B;
+font-weight: bold;
+line-height: 1.2;
+text-align: center;
+margin-top: 10px;
+}
+.input-div{
+width: 100%;
+position: relative;
+
+}
+
+
+.btnlogin {
+  background: linear-gradient(to right, #6600cc 0%, #ff99ff 100%);
+  border: none;
+  color: white;
+  padding: 15px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  margin-top: 30px;
+  margin-left: 140px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.logininputcss-user {
+  background-color: whitesmoke;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 30px;
+  width: 85%;
+  position: relative;
+  left: 35px;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  box-sizing: border-box;
+}
+
+.logininputcss-pass {
+  background-color: whitesmoke;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 85%;
+  margin-top: 30px;
+  position: relative;
+  left: 35px;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  box-sizing: border-box;
+
+}
+.logininputcss-user:focus,.logininputcss-pass:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+.logininputcss-user:placeholder {
+  color: #cccccc;
+}
+/*
+.text-right{
+margin-left: auto;
+text-align: right!important;
+position: absolute;
+top:60%;
+left:55%;
+
+}*/
+.txt2 {
+font-family: Poppins-Regular;
+font-size: 26px;
+font-weight: 200;
+line-height: 1.5;
+color:  #5e13a0;
+margin-top: 90px;
+position: absolute;
+left: 47%;
+}
+/*
+.forgotlogin {
+font-family: Poppins-Regular;
+font-size: 18px;
+line-height: 1.7;
+color: rgb(109, 104, 104);
+margin: 0px;
+transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-o-transition: all 0.4s;
+-moz-transition: all 0.4s;
+}*/
+
+.forgotlogin:focus {
+outline: none !important;
+}
+
+.logininputcss-user:focus,.logininputcss-pass:focus{
+  background-color: #fff;
+  border-bottom: 2px solid #519cc2;
+}
+
+.forgotlogin:hover {
+text-decoration: none;
+color: #7026b1;
+font-size: 28px;
+font-weight: 300;
+}
+
+* {
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: border-box;
+}
+
+input {
+outline: none;
+border: none;
+}
+

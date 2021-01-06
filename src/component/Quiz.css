@@ -1,0 +1,186 @@
+
+
+.quizMain{
+    display:flex;
+    overflow-y: hidden;
+   width: 100%;
+}
+
+.quizCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    background-color: #bc9fcf;
+    position: absolute;
+    left: 0px;
+    top:60px;
+    
+}
+.quizBtn {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  background-color:#6d2b86;
+  padding: 10px 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.btn {
+  display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border : none;
+    font-size: 28px;
+    
+}
+.btn:hover {
+  color: #ecf0f1;
+  font-weight: 700;
+}
+
+.btnfordashboard {
+  display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: rgb(116, 22, 153);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border : none;
+    font-size: 28px;
+
+}
+.btnfordashboard:hover {
+  color: white;
+  
+}
+
+
+
+
+.quizTimer {
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+.option_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+.option {
+  display: block;
+  width: 300px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 100px;
+  border: 2px solid transparent;
+  transition: 0.4s all;
+  margin-left: 30px;
+}
+
+
+.option input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 300px;
+}
+
+
+.option:hover {
+  cursor: pointer;
+  border: 2px solid #8952a1;
+  color: #341f97;
+}
+.isactive 
+{
+  background-color: #714d80;
+  color: #fff;
+}
+
+.isactive:hover {
+    cursor: pointer;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+
+/*navbar css*/
+.topnav {
+  background-color: #944db1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+ float: left;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 18px;
+text-decoration: none;
+font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover{
+background-color: rgb(218, 218, 218);
+color: black;
+font-weight: 500;
+height: auto;
+}
+
+.titlecolour {
+  color: white;
+}
+
+.titlecolour:hover {
+  color: black;
+}
+
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
+.centerstatus {
+  float: none;
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
