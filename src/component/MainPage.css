@@ -41,7 +41,7 @@
 }
 
 .colforquiz {
-  ms-flex: 0 0 25%;
+  
     flex: 0 0 25%;
     max-width: 15%;
     flex-direction: column!important;
