@@ -129,7 +129,6 @@ export default class Quiz extends react.Component
 
         //console.log(this.state.Answer);
     }
-
     render(){
         return(     
             

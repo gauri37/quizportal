@@ -46,8 +46,7 @@ export default class StartPage extends react.Component
     render()
     {
         return (
-            
-                
+                 
             this.state.isLoggedIn ? (<MainPage />): (
             
             this.state.isBtnClicked ? <Login 
