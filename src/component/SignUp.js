@@ -12,9 +12,12 @@ export default class signup extends react.Component
                 Create Account	
                 </span>
                 <div class="signupuser-div">
-                    <input type="text" class="signupinputcss-user" name="userName" placeholder="Enter Username"/>
+                    <input type="text" class="signupinputcss-user" name="firstName" placeholder="Enter FirstName"/>
                 </div>
 
+                <div class="signupuser-div">
+                    <input type="text" class="signupinputcss-user" name="lastname" placeholder="Enter Lastname"/>
+                </div>
 
                 <div class="signupuser-div">
                     <input type="email" class="signupinputcss-email" name="Email" placeholder="Enter Email" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"/>
@@ -24,9 +27,7 @@ export default class signup extends react.Component
                     <input type="password" class="signupinputcss-pass" name="password" placeholder="Enter Password"/>
                 </div>
 
-                <div class="signupuser-div">
-                    <input type="password" class="signupinputcss-pass" name="Confirm password" placeholder="Confirm Password"/>
-                </div>
+                
 
                 <button className="btnsignup">Sign Up</button> 
                
